@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 #DaumWebMasterTool:cb4abcbcb7e583655282f76ee7a5887312f021b79b6ef14e4368e4c8df7529cd:pxaHsjB0JmPhwX/vw/GaPw==
-Sitemap: https://2994kr.p-e.kr/sitemap.xml
+Sitemap: https://2994kr.github.io/sitemap.xml
