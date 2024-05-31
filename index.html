@@ -10,17 +10,7 @@ header:
     overlay_filter: 0.5 # same as adding an opacity of 0.5 to a white background
     caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
 ---
-<ul class="posts">
-  {% for post in site.posts %}
-    <li>
-      <a href="{{ post.url }}">
-        {% assign thumbnail = post.content | split: '![thumbnail]' | last | split: '(' | last | split: ')' | first %}
-        <img src="{{ thumbnail }}" alt="Post Thumbnail" style="width: 150px; height: 150px;" />
-        <h2>{{ post.title }}</h2>
-      </a>
-    </li>
-  {% endfor %}
-</ul>
+
 
 <div class="grid__wrapper">
     {% for post in paginator.posts %}
